@@ -11,3 +11,10 @@ toggleBtn.addEventListener('click', () => {
     }
     header.classList.toggle('height');
 })
+
+document.querySelectorAll('.link').forEach(item => {
+    item.addEventListener('click', () => {
+        header.classList.remove('height');
+        icon.classList = 'fa-solid fa-bars'
+    })
+})
