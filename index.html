@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/72225e7e07.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <title>Edie Homepage | devchallenges</title>
+</head>
+
+<body>
+
+  <!-- header -->
+  <!-- navbar -->
+  <header class="header">
+    <nav>
+      <h3 class="nav-brand">Edie</h3>
+      <ul class="nav-menu">
+        <li class="nav-item" id="home"><a href="#home-section">Home</a></li>
+        <li class="nav-item" id="services"><a href="#services-section">Services</a></li>
+        <li class="nav-item" id="work"><a href="#work-section">Our Works</a></li>
+        <li class="nav-item" id="clients"><a href="#client-section">Clients</a></li>
+        <li class="nav-item" id="contact"><a href="#contact-section">Contact</a></li>
+      </ul>
+      <button class="humburger-menu">
+        <i class="fa-solid fa-bars" id="icon-humburger"></i>
+      </button>
+    </nav>
+    <!-- mobile navbar -->
+    <ul class="mobile-navbar">
+      <li class="nav-item" id="home"><a href="#home-section">Home</a></li>
+      <li class="nav-item" id="services"><a href="#services-section">Services</a></li>
+      <li class="nav-item" id="work"><a href="#work-section">Our Works</a></li>
+      <li class="nav-item" id="clients"><a href="#client-section">Clients</a></li>
+      <li class="nav-item" id="contact"><a href="#contact-section">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- main content -->
+  <main class="main-content">
+    <!-- home section -->
+    <section id="home-section">
+      <div class="intro">
+        <h5 class="intro-query">Unhappy with your website?</h5>
+        <h1 class="intro-title">We create beautiful <br>and fast web services</h1>
+      </div>
+
+      <!-- hero image -->
+      <div class="hero-image">
+        <img src="./images/heroImage.jpg" alt="group of men working on project">
+      </div>
+      <div class="intro">
+        <h1 class="intro-title">Story, emotion <br> and purpose</h1>
+        <p class="home-description">We help transform your ideas into real world applications that
+          will outperform your toughest competition and help you achieve your strategic goals
+          in short period of time.</p>
+      </div>
+
+    </section>
+
+    <!-- contact section -->
+    <section id="contact-section">
+      <div class="contact">
+        <p class="contact-query">Want us to contact you?</p>
+        <div class="input-email">
+          <input type="text" class="text" placeholder="Email">
+          <button class="join-btn">Join</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services-section">
+      <h2 class="services-section-heading">We offer high <br>demand services</h2>
+      <div class="card-group">
+        <div class="card-body">
+          <span class="card-icon">
+            <i class="fa-solid fa-pen-ruler"></i>
+          </span>
+          <h3 class="card-title">UI/UX Design</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum quidem quis autem.
+          </p>
+          <button class="card-btn">Get started</button>
+        </div>
+        <div class="card-body">
+          <span class="card-icon">
+            <i class="bi bi-code-square green"></i></i>
+          </span>
+          <h3 class="card-title">Front End</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum quidem quis autem.
+          </p>
+          <button class="card-btn">Get started</button>
+        </div>
+        <div class="card-body">
+          <span class="card-icon"><i class="fa-solid fa-database red"></i></span>
+          <h3 class="card-title">Back End</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum quidem quis autem.
+          </p>
+          <button class="card-btn">Get started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section -->
+    <section id="work-section">
+      <h2 class="services-section-heading">Good design means<br> good business</h2>
+      <div class="project-tiles">
+        <div class="project-info">
+          <div class="project-img">
+            <img src="./images/smarthome.jpg" alt="Smart home dashboard project image">
+          </div>
+          <p class="project-type">Full stack application</p>
+          <h4 class="project-name">Smart home dashboard</h4>
+        </div>
+        <div class="project-info">
+          <div class="project-img">
+            <img src="./images/onboard.png" alt="Smart home dashboard project image">
+          </div>
+          <p class="project-type">UI/UX design</p>
+          <h4 class="project-name">Onboard application</h4>
+        </div>
+        <div class="project-info">
+          <div class="project-img">
+            <img src="./images/booking.png" alt="Smart home dashboard project image">
+          </div>
+          <p class="project-type">Mobile application</p>
+          <h4 class="project-name">Booking system</h4>
+        </div>
+        <div class="project-info">
+          <div class="project-img">
+            <img src="./images/juice-product.png" alt="Smart home dashboard project image">
+          </div>
+          <p class="project-type">Front End application</p>
+          <h4 class="project-name">Juice product homepage</h4>
+        </div>
+
+      </div>
+      <div class="btn">
+        <button class="see-more-btn">see more<i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+
+    </section>
+
+    <!-- team section -->
+    <section id="team-section">
+      <div class="team-info">
+        <p class="team-smtext">Meet the team</p>
+        <h3 class="team-heading">We are chilled and a laidback team</h3>
+        <p class="team-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="team-members">
+        <div class="img group-1">
+          <img src="./images/person3.png" alt="team member image girl">
+        </div>
+        <div class="img group-2">
+          <img src="./images/person1.png" alt="team member image boy" class="sm-img">
+          <img src="./images/person2.png" alt="team member image boy">
+        </div>
+      </div>
+    </section>
+
+    <!-- client section  -->
+    <section id="client-section">
+      <div class="client-review">
+        <p>“Fast and outstanding results. Edie understands their customer’s needs. 
+          They have a young and talented team.”</p>
+      </div>
+      <div class="client-info">
+        <div class="client-img">
+          <img src="./images/person4.png" alt="client carlos tran image">
+        </div>
+        <div class="client-name">
+          <h5 class="name">Carlos Tran</h5>
+          <p class="position">The Decorate Gatsby</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="#home-section">Home</a></li>
+          <li><a href="#services-section">Services</a></li>
+          <li><a href="#work-section">Our work</a></li>
+          <li><a href="#client-section">Clients</a></li>
+          <li><a href="#contact-section">Contact
+          </a></li>
+        </ul>
+        <div class="social-contact">
+          <h3 class="logo">Edie</h3>
+          <div class="social-icons">
+            <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+            <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+            <span class="icon"><i class="fa-brands fa-square-twitter"></i></span>
+          </div>
+        </div>
+        <div class="footer-contact">
+         <p class="contact-query">Want us to contact you?</p>
+          <div class="input-email">
+            <input type="text" class="text" placeholder="Email">
+            <button class="join-btn">Join</button>
+        </div>
+      </div>
+      </div>
+      <p class="creator">created by <a href="https://github.com/Rabiaismail21" target="_blank">Rabia Ismail</a> - devChallenges.io</p>
+    </footer>
+  </main>
+
+
+  <!-- script -->
+  <script src="main.js"></script>
+</body>
+
+</html>
